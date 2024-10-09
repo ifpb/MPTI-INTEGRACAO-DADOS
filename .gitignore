@@ -1,1 +1,4 @@
 .idea
+04-big-data-file-formats/files/Parking_Violations_Issued_-_Fiscal_Year_2015.csv
+04-big-data-file-formats/files/Parking_Violations_Issued_-_Fiscal_Year_2015.parquet
+**/virtualenv

@@ -1,0 +1,61 @@
+{
+  "type": "record",
+  "name": "Country",
+  "namespace": "com.example",
+  "fields": [
+    {"name": "id", "type": "string"},
+    {"name": "iso2Code", "type": "string"},
+    {"name": "name", "type": "string"},
+    {
+      "name": "region",
+      "type": {
+        "type": "record",
+        "name": "Region",
+        "fields": [
+          {"name": "id", "type": "string"},
+          {"name": "iso2code", "type": "string"},
+          {"name": "value", "type": "string"}
+        ]
+      }
+    },
+    {
+      "name": "adminregion",
+      "type": {
+        "type": "record",
+        "name": "AdminRegion",
+        "fields": [
+          {"name": "id", "type": "string"},
+          {"name": "iso2code", "type": "string"},
+          {"name": "value", "type": "string"}
+        ]
+      }
+    },
+    {
+      "name": "incomeLevel",
+      "type": {
+        "type": "record",
+        "name": "IncomeLevel",
+        "fields": [
+          {"name": "id", "type": "string"},
+          {"name": "iso2code", "type": "string"},
+          {"name": "value", "type": "string"}
+        ]
+      }
+    },
+    {
+      "name": "lendingType",
+      "type": {
+        "type": "record",
+        "name": "LendingType",
+        "fields": [
+          {"name": "id", "type": "string"},
+          {"name": "iso2code", "type": "string"},
+          {"name": "value", "type": "string"}
+        ]
+      }
+    },
+    {"name": "capitalCity", "type": "string"},
+    {"name": "longitude", "type": "string"},
+    {"name": "latitude", "type": "string"}
+  ]
+}

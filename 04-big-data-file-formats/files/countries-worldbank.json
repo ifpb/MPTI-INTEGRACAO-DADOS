@@ -1,0 +1,842 @@
+[
+  {
+    "id": "ABW",
+    "iso2Code": "AW",
+    "name": "Aruba",
+    "region": {
+      "id": "LCN",
+      "iso2code": "ZJ",
+      "value": "Latin America & Caribbean "
+    },
+    "adminregion": {
+      "id": "",
+      "iso2code": "",
+      "value": ""
+    },
+    "incomeLevel": {
+      "id": "HIC",
+      "iso2code": "XD",
+      "value": "High income"
+    },
+    "lendingType": {
+      "id": "LNX",
+      "iso2code": "XX",
+      "value": "Not classified"
+    },
+    "capitalCity": "Oranjestad",
+    "longitude": "-70.0167",
+    "latitude": "12.5167"
+  },
+  {
+    "id": "AFE",
+    "iso2Code": "ZH",
+    "name": "Africa Eastern and Southern",
+    "region": {
+      "id": "NA",
+      "iso2code": "NA",
+      "value": "Aggregates"
+    },
+    "adminregion": {
+      "id": "",
+      "iso2code": "",
+      "value": ""
+    },
+    "incomeLevel": {
+      "id": "NA",
+      "iso2code": "NA",
+      "value": "Aggregates"
+    },
+    "lendingType": {
+      "id": "",
+      "iso2code": "",
+      "value": "Aggregates"
+    },
+    "capitalCity": "",
+    "longitude": "",
+    "latitude": ""
+  },
+  {
+    "id": "AFG",
+    "iso2Code": "AF",
+    "name": "Afghanistan",
+    "region": {
+      "id": "SAS",
+      "iso2code": "8S",
+      "value": "South Asia"
+    },
+    "adminregion": {
+      "id": "SAS",
+      "iso2code": "8S",
+      "value": "South Asia"
+    },
+    "incomeLevel": {
+      "id": "LIC",
+      "iso2code": "XM",
+      "value": "Low income"
+    },
+    "lendingType": {
+      "id": "IDX",
+      "iso2code": "XI",
+      "value": "IDA"
+    },
+    "capitalCity": "Kabul",
+    "longitude": "69.1761",
+    "latitude": "34.5228"
+  },
+  {
+    "id": "AFR",
+    "iso2Code": "A9",
+    "name": "Africa",
+    "region": {
+      "id": "NA",
+      "iso2code": "NA",
+      "value": "Aggregates"
+    },
+    "adminregion": {
+      "id": "",
+      "iso2code": "",
+      "value": ""
+    },
+    "incomeLevel": {
+      "id": "NA",
+      "iso2code": "NA",
+      "value": "Aggregates"
+    },
+    "lendingType": {
+      "id": "",
+      "iso2code": "",
+      "value": "Aggregates"
+    },
+    "capitalCity": "",
+    "longitude": "",
+    "latitude": ""
+  },
+  {
+    "id": "AFW",
+    "iso2Code": "ZI",
+    "name": "Africa Western and Central",
+    "region": {
+      "id": "NA",
+      "iso2code": "NA",
+      "value": "Aggregates"
+    },
+    "adminregion": {
+      "id": "",
+      "iso2code": "",
+      "value": ""
+    },
+    "incomeLevel": {
+      "id": "NA",
+      "iso2code": "NA",
+      "value": "Aggregates"
+    },
+    "lendingType": {
+      "id": "",
+      "iso2code": "",
+      "value": "Aggregates"
+    },
+    "capitalCity": "",
+    "longitude": "",
+    "latitude": ""
+  },
+  {
+    "id": "AGO",
+    "iso2Code": "AO",
+    "name": "Angola",
+    "region": {
+      "id": "SSF",
+      "iso2code": "ZG",
+      "value": "Sub-Saharan Africa "
+    },
+    "adminregion": {
+      "id": "SSA",
+      "iso2code": "ZF",
+      "value": "Sub-Saharan Africa (excluding high income)"
+    },
+    "incomeLevel": {
+      "id": "LMC",
+      "iso2code": "XN",
+      "value": "Lower middle income"
+    },
+    "lendingType": {
+      "id": "IBD",
+      "iso2code": "XF",
+      "value": "IBRD"
+    },
+    "capitalCity": "Luanda",
+    "longitude": "13.242",
+    "latitude": "-8.81155"
+  },
+  {
+    "id": "ALB",
+    "iso2Code": "AL",
+    "name": "Albania",
+    "region": {
+      "id": "ECS",
+      "iso2code": "Z7",
+      "value": "Europe & Central Asia"
+    },
+    "adminregion": {
+      "id": "ECA",
+      "iso2code": "7E",
+      "value": "Europe & Central Asia (excluding high income)"
+    },
+    "incomeLevel": {
+      "id": "UMC",
+      "iso2code": "XT",
+      "value": "Upper middle income"
+    },
+    "lendingType": {
+      "id": "IBD",
+      "iso2code": "XF",
+      "value": "IBRD"
+    },
+    "capitalCity": "Tirane",
+    "longitude": "19.8172",
+    "latitude": "41.3317"
+  },
+  {
+    "id": "AND",
+    "iso2Code": "AD",
+    "name": "Andorra",
+    "region": {
+      "id": "ECS",
+      "iso2code": "Z7",
+      "value": "Europe & Central Asia"
+    },
+    "adminregion": {
+      "id": "",
+      "iso2code": "",
+      "value": ""
+    },
+    "incomeLevel": {
+      "id": "HIC",
+      "iso2code": "XD",
+      "value": "High income"
+    },
+    "lendingType": {
+      "id": "LNX",
+      "iso2code": "XX",
+      "value": "Not classified"
+    },
+    "capitalCity": "Andorra la Vella",
+    "longitude": "1.5218",
+    "latitude": "42.5075"
+  },
+  {
+    "id": "ARB",
+    "iso2Code": "1A",
+    "name": "Arab World",
+    "region": {
+      "id": "NA",
+      "iso2code": "NA",
+      "value": "Aggregates"
+    },
+    "adminregion": {
+      "id": "",
+      "iso2code": "",
+      "value": ""
+    },
+    "incomeLevel": {
+      "id": "NA",
+      "iso2code": "NA",
+      "value": "Aggregates"
+    },
+    "lendingType": {
+      "id": "",
+      "iso2code": "",
+      "value": "Aggregates"
+    },
+    "capitalCity": "",
+    "longitude": "",
+    "latitude": ""
+  },
+  {
+    "id": "ARE",
+    "iso2Code": "AE",
+    "name": "United Arab Emirates",
+    "region": {
+      "id": "MEA",
+      "iso2code": "ZQ",
+      "value": "Middle East & North Africa"
+    },
+    "adminregion": {
+      "id": "",
+      "iso2code": "",
+      "value": ""
+    },
+    "incomeLevel": {
+      "id": "HIC",
+      "iso2code": "XD",
+      "value": "High income"
+    },
+    "lendingType": {
+      "id": "LNX",
+      "iso2code": "XX",
+      "value": "Not classified"
+    },
+    "capitalCity": "Abu Dhabi",
+    "longitude": "54.3705",
+    "latitude": "24.4764"
+  },
+  {
+    "id": "ARG",
+    "iso2Code": "AR",
+    "name": "Argentina",
+    "region": {
+      "id": "LCN",
+      "iso2code": "ZJ",
+      "value": "Latin America & Caribbean "
+    },
+    "adminregion": {
+      "id": "LAC",
+      "iso2code": "XJ",
+      "value": "Latin America & Caribbean (excluding high income)"
+    },
+    "incomeLevel": {
+      "id": "UMC",
+      "iso2code": "XT",
+      "value": "Upper middle income"
+    },
+    "lendingType": {
+      "id": "IBD",
+      "iso2code": "XF",
+      "value": "IBRD"
+    },
+    "capitalCity": "Buenos Aires",
+    "longitude": "-58.4173",
+    "latitude": "-34.6118"
+  },
+  {
+    "id": "ARM",
+    "iso2Code": "AM",
+    "name": "Armenia",
+    "region": {
+      "id": "ECS",
+      "iso2code": "Z7",
+      "value": "Europe & Central Asia"
+    },
+    "adminregion": {
+      "id": "ECA",
+      "iso2code": "7E",
+      "value": "Europe & Central Asia (excluding high income)"
+    },
+    "incomeLevel": {
+      "id": "UMC",
+      "iso2code": "XT",
+      "value": "Upper middle income"
+    },
+    "lendingType": {
+      "id": "IBD",
+      "iso2code": "XF",
+      "value": "IBRD"
+    },
+    "capitalCity": "Yerevan",
+    "longitude": "44.509",
+    "latitude": "40.1596"
+  },
+  {
+    "id": "ASM",
+    "iso2Code": "AS",
+    "name": "American Samoa",
+    "region": {
+      "id": "EAS",
+      "iso2code": "Z4",
+      "value": "East Asia & Pacific"
+    },
+    "adminregion": {
+      "id": "",
+      "iso2code": "",
+      "value": ""
+    },
+    "incomeLevel": {
+      "id": "HIC",
+      "iso2code": "XD",
+      "value": "High income"
+    },
+    "lendingType": {
+      "id": "LNX",
+      "iso2code": "XX",
+      "value": "Not classified"
+    },
+    "capitalCity": "Pago Pago",
+    "longitude": "-170.691",
+    "latitude": "-14.2846"
+  },
+  {
+    "id": "ATG",
+    "iso2Code": "AG",
+    "name": "Antigua and Barbuda",
+    "region": {
+      "id": "LCN",
+      "iso2code": "ZJ",
+      "value": "Latin America & Caribbean "
+    },
+    "adminregion": {
+      "id": "",
+      "iso2code": "",
+      "value": ""
+    },
+    "incomeLevel": {
+      "id": "HIC",
+      "iso2code": "XD",
+      "value": "High income"
+    },
+    "lendingType": {
+      "id": "IBD",
+      "iso2code": "XF",
+      "value": "IBRD"
+    },
+    "capitalCity": "Saint John's",
+    "longitude": "-61.8456",
+    "latitude": "17.1175"
+  },
+  {
+    "id": "AUS",
+    "iso2Code": "AU",
+    "name": "Australia",
+    "region": {
+      "id": "EAS",
+      "iso2code": "Z4",
+      "value": "East Asia & Pacific"
+    },
+    "adminregion": {
+      "id": "",
+      "iso2code": "",
+      "value": ""
+    },
+    "incomeLevel": {
+      "id": "HIC",
+      "iso2code": "XD",
+      "value": "High income"
+    },
+    "lendingType": {
+      "id": "LNX",
+      "iso2code": "XX",
+      "value": "Not classified"
+    },
+    "capitalCity": "Canberra",
+    "longitude": "149.129",
+    "latitude": "-35.282"
+  },
+  {
+    "id": "AUT",
+    "iso2Code": "AT",
+    "name": "Austria",
+    "region": {
+      "id": "ECS",
+      "iso2code": "Z7",
+      "value": "Europe & Central Asia"
+    },
+    "adminregion": {
+      "id": "",
+      "iso2code": "",
+      "value": ""
+    },
+    "incomeLevel": {
+      "id": "HIC",
+      "iso2code": "XD",
+      "value": "High income"
+    },
+    "lendingType": {
+      "id": "LNX",
+      "iso2code": "XX",
+      "value": "Not classified"
+    },
+    "capitalCity": "Vienna",
+    "longitude": "16.3798",
+    "latitude": "48.2201"
+  },
+  {
+    "id": "AZE",
+    "iso2Code": "AZ",
+    "name": "Azerbaijan",
+    "region": {
+      "id": "ECS",
+      "iso2code": "Z7",
+      "value": "Europe & Central Asia"
+    },
+    "adminregion": {
+      "id": "ECA",
+      "iso2code": "7E",
+      "value": "Europe & Central Asia (excluding high income)"
+    },
+    "incomeLevel": {
+      "id": "UMC",
+      "iso2code": "XT",
+      "value": "Upper middle income"
+    },
+    "lendingType": {
+      "id": "IBD",
+      "iso2code": "XF",
+      "value": "IBRD"
+    },
+    "capitalCity": "Baku",
+    "longitude": "49.8932",
+    "latitude": "40.3834"
+  },
+  {
+    "id": "BDI",
+    "iso2Code": "BI",
+    "name": "Burundi",
+    "region": {
+      "id": "SSF",
+      "iso2code": "ZG",
+      "value": "Sub-Saharan Africa "
+    },
+    "adminregion": {
+      "id": "SSA",
+      "iso2code": "ZF",
+      "value": "Sub-Saharan Africa (excluding high income)"
+    },
+    "incomeLevel": {
+      "id": "LIC",
+      "iso2code": "XM",
+      "value": "Low income"
+    },
+    "lendingType": {
+      "id": "IDX",
+      "iso2code": "XI",
+      "value": "IDA"
+    },
+    "capitalCity": "Bujumbura",
+    "longitude": "29.3639",
+    "latitude": "-3.3784"
+  },
+  {
+    "id": "BEA",
+    "iso2Code": "B4",
+    "name": "East Asia & Pacific (IBRD-only countries)",
+    "region": {
+      "id": "NA",
+      "iso2code": "NA",
+      "value": "Aggregates"
+    },
+    "adminregion": {
+      "id": "",
+      "iso2code": "",
+      "value": ""
+    },
+    "incomeLevel": {
+      "id": "NA",
+      "iso2code": "NA",
+      "value": "Aggregates"
+    },
+    "lendingType": {
+      "id": "",
+      "iso2code": "",
+      "value": "Aggregates"
+    },
+    "capitalCity": "",
+    "longitude": "",
+    "latitude": ""
+  },
+  {
+    "id": "BEC",
+    "iso2Code": "B7",
+    "name": "Europe & Central Asia (IBRD-only countries)",
+    "region": {
+      "id": "NA",
+      "iso2code": "NA",
+      "value": "Aggregates"
+    },
+    "adminregion": {
+      "id": "",
+      "iso2code": "",
+      "value": ""
+    },
+    "incomeLevel": {
+      "id": "NA",
+      "iso2code": "NA",
+      "value": "Aggregates"
+    },
+    "lendingType": {
+      "id": "",
+      "iso2code": "",
+      "value": "Aggregates"
+    },
+    "capitalCity": "",
+    "longitude": "",
+    "latitude": ""
+  },
+  {
+    "id": "BEL",
+    "iso2Code": "BE",
+    "name": "Belgium",
+    "region": {
+      "id": "ECS",
+      "iso2code": "Z7",
+      "value": "Europe & Central Asia"
+    },
+    "adminregion": {
+      "id": "",
+      "iso2code": "",
+      "value": ""
+    },
+    "incomeLevel": {
+      "id": "HIC",
+      "iso2code": "XD",
+      "value": "High income"
+    },
+    "lendingType": {
+      "id": "LNX",
+      "iso2code": "XX",
+      "value": "Not classified"
+    },
+    "capitalCity": "Brussels",
+    "longitude": "4.36761",
+    "latitude": "50.8371"
+  },
+  {
+    "id": "BEN",
+    "iso2Code": "BJ",
+    "name": "Benin",
+    "region": {
+      "id": "SSF",
+      "iso2code": "ZG",
+      "value": "Sub-Saharan Africa "
+    },
+    "adminregion": {
+      "id": "SSA",
+      "iso2code": "ZF",
+      "value": "Sub-Saharan Africa (excluding high income)"
+    },
+    "incomeLevel": {
+      "id": "LMC",
+      "iso2code": "XN",
+      "value": "Lower middle income"
+    },
+    "lendingType": {
+      "id": "IDX",
+      "iso2code": "XI",
+      "value": "IDA"
+    },
+    "capitalCity": "Porto-Novo",
+    "longitude": "2.6323",
+    "latitude": "6.4779"
+  },
+  {
+    "id": "BFA",
+    "iso2Code": "BF",
+    "name": "Burkina Faso",
+    "region": {
+      "id": "SSF",
+      "iso2code": "ZG",
+      "value": "Sub-Saharan Africa "
+    },
+    "adminregion": {
+      "id": "SSA",
+      "iso2code": "ZF",
+      "value": "Sub-Saharan Africa (excluding high income)"
+    },
+    "incomeLevel": {
+      "id": "LIC",
+      "iso2code": "XM",
+      "value": "Low income"
+    },
+    "lendingType": {
+      "id": "IDX",
+      "iso2code": "XI",
+      "value": "IDA"
+    },
+    "capitalCity": "Ouagadougou",
+    "longitude": "-1.53395",
+    "latitude": "12.3605"
+  },
+  {
+    "id": "BGD",
+    "iso2Code": "BD",
+    "name": "Bangladesh",
+    "region": {
+      "id": "SAS",
+      "iso2code": "8S",
+      "value": "South Asia"
+    },
+    "adminregion": {
+      "id": "SAS",
+      "iso2code": "8S",
+      "value": "South Asia"
+    },
+    "incomeLevel": {
+      "id": "LMC",
+      "iso2code": "XN",
+      "value": "Lower middle income"
+    },
+    "lendingType": {
+      "id": "IDX",
+      "iso2code": "XI",
+      "value": "IDA"
+    },
+    "capitalCity": "Dhaka",
+    "longitude": "90.4113",
+    "latitude": "23.7055"
+  },
+  {
+    "id": "BGR",
+    "iso2Code": "BG",
+    "name": "Bulgaria",
+    "region": {
+      "id": "ECS",
+      "iso2code": "Z7",
+      "value": "Europe & Central Asia"
+    },
+    "adminregion": {
+      "id": "ECA",
+      "iso2code": "7E",
+      "value": "Europe & Central Asia (excluding high income)"
+    },
+    "incomeLevel": {
+      "id": "UMC",
+      "iso2code": "XT",
+      "value": "Upper middle income"
+    },
+    "lendingType": {
+      "id": "IBD",
+      "iso2code": "XF",
+      "value": "IBRD"
+    },
+    "capitalCity": "Sofia",
+    "longitude": "23.3238",
+    "latitude": "42.7105"
+  },
+  {
+    "id": "BHI",
+    "iso2Code": "B1",
+    "name": "IBRD countries classified as high income",
+    "region": {
+      "id": "NA",
+      "iso2code": "NA",
+      "value": "Aggregates"
+    },
+    "adminregion": {
+      "id": "",
+      "iso2code": "",
+      "value": ""
+    },
+    "incomeLevel": {
+      "id": "NA",
+      "iso2code": "NA",
+      "value": "Aggregates"
+    },
+    "lendingType": {
+      "id": "",
+      "iso2code": "",
+      "value": "Aggregates"
+    },
+    "capitalCity": "",
+    "longitude": "",
+    "latitude": ""
+  },
+  {
+    "id": "BHR",
+    "iso2Code": "BH",
+    "name": "Bahrain",
+    "region": {
+      "id": "MEA",
+      "iso2code": "ZQ",
+      "value": "Middle East & North Africa"
+    },
+    "adminregion": {
+      "id": "",
+      "iso2code": "",
+      "value": ""
+    },
+    "incomeLevel": {
+      "id": "HIC",
+      "iso2code": "XD",
+      "value": "High income"
+    },
+    "lendingType": {
+      "id": "LNX",
+      "iso2code": "XX",
+      "value": "Not classified"
+    },
+    "capitalCity": "Manama",
+    "longitude": "50.5354",
+    "latitude": "26.1921"
+  },
+  {
+    "id": "BHS",
+    "iso2Code": "BS",
+    "name": "Bahamas, The",
+    "region": {
+      "id": "LCN",
+      "iso2code": "ZJ",
+      "value": "Latin America & Caribbean "
+    },
+    "adminregion": {
+      "id": "",
+      "iso2code": "",
+      "value": ""
+    },
+    "incomeLevel": {
+      "id": "HIC",
+      "iso2code": "XD",
+      "value": "High income"
+    },
+    "lendingType": {
+      "id": "LNX",
+      "iso2code": "XX",
+      "value": "Not classified"
+    },
+    "capitalCity": "Nassau",
+    "longitude": "-77.339",
+    "latitude": "25.0661"
+  },
+  {
+    "id": "BIH",
+    "iso2Code": "BA",
+    "name": "Bosnia and Herzegovina",
+    "region": {
+      "id": "ECS",
+      "iso2code": "Z7",
+      "value": "Europe & Central Asia"
+    },
+    "adminregion": {
+      "id": "ECA",
+      "iso2code": "7E",
+      "value": "Europe & Central Asia (excluding high income)"
+    },
+    "incomeLevel": {
+      "id": "UMC",
+      "iso2code": "XT",
+      "value": "Upper middle income"
+    },
+    "lendingType": {
+      "id": "IBD",
+      "iso2code": "XF",
+      "value": "IBRD"
+    },
+    "capitalCity": "Sarajevo",
+    "longitude": "18.4214",
+    "latitude": "43.8607"
+  },
+  {
+    "id": "BLA",
+    "iso2Code": "B2",
+    "name": "Latin America & the Caribbean (IBRD-only countries)",
+    "region": {
+      "id": "NA",
+      "iso2code": "NA",
+      "value": "Aggregates"
+    },
+    "adminregion": {
+      "id": "",
+      "iso2code": "",
+      "value": ""
+    },
+    "incomeLevel": {
+      "id": "NA",
+      "iso2code": "NA",
+      "value": "Aggregates"
+    },
+    "lendingType": {
+      "id": "",
+      "iso2code": "",
+      "value": "Aggregates"
+    },
+    "capitalCity": "",
+    "longitude": "",
+    "latitude": ""
+  }
+]
