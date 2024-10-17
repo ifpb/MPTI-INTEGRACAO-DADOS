@@ -5,6 +5,7 @@ import requests
 from airflow import DAG
 from airflow.operators.bash import BashOperator
 from airflow.operators.python import PythonOperator
+
 import multiprocessing
 multiprocessing.set_start_method('forkserver', force=True)
 
@@ -18,28 +19,29 @@ dag = DAG(
 # task 1: Download launches.
 download_launches = BashOperator(
     task_id="download_launches",
-    bash_command="curl -o /Users/diegopessoa/airflow-examples/rockets/launches.json -L 'https://ll.thespacedevs.com/2.0.0/launch/upcoming'",
+    bash_command="curl -o /opt/airflow/dags/rockets/launches.json -L 'https://ll.thespacedevs.com/2.0.0/launch/upcoming'",
     dag=dag,
 )
 
 # task 2: get pictures.
 def _get_pictures():
     # Ensure directory exists
-    pathlib.Path("/Users/diegopessoa/airflow-examples/rockets/images").mkdir(
+    pathlib.Path("/opt/airflow/dags/rockets/images").mkdir(
         parents=True, exist_ok=True
     )
 
-    print("Iniciando download")
+    print("Iniciando download das fotos")
 
     # Download all pictures in launches.json
-    with open("/Users/diegopessoa/airflow-examples/rockets/launches.json") as f:
+    with open("/opt/airflow/dags/rockets/launches.json") as f:
         launches = json.load(f)
         image_urls = [launch["image"] for launch in launches["results"]]
         for image_url in image_urls:
-            response = requests.get(image_url)
+            print(f"Baixando imagem {image_url}")
+            response = requests.get(image_url, timeout=10)
             image_filename = image_url.split("/")[-1]
             target_file = (
-                f"/Users/diegopessoa/airflow-examples/rockets/images/{image_filename}"
+                f"/opt/airflow/dags/rockets/images/{image_filename}"
             )
             with open(target_file, "wb") as f:
                 f.write(response.content)
@@ -53,7 +55,7 @@ get_pictures = PythonOperator(
 # task 3: notify.
 notify = BashOperator(
     task_id="notify",
-    bash_command='echo "There are now $(ls ~/airflow-examples/rockets/images/ | wc -l) images."',
+    bash_command='echo "There are now $(ls /opt/airflow/dags/rockets/images/ | wc -l) images."',
     dag=dag,
 )
 
